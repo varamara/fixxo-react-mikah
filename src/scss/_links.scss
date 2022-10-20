@@ -1,0 +1,12 @@
+a {
+    font-size: $font-size-16;
+    font-weight: $font-weight-semi-bold;
+    text-decoration: none;
+   
+    color: #23262a;
+    
+    &:hover {
+        text-decoration: underline;
+        color: #ff7373;  
+    }
+}

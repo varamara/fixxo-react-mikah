@@ -1,0 +1,19 @@
+.__navbar {
+    height: 100px;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    
+    .__container {
+        width: 1920px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+        .links a {
+            margin: 1rem;
+        }
+    }  
+} 

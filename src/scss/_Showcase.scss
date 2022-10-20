@@ -1,0 +1,28 @@
+.__showcase {
+    width: 1920px;
+    background: rgb(230, 230, 230);
+    background: linear-gradient(90deg, rgba(230, 230, 230, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+
+    .__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1920px;
+
+        .showcase_mid {
+            text-align: center;
+
+            h1 {
+                border: 1px solid red;
+            }
+            h2{
+                border: 1px solid red;
+            }
+           
+        } 
+        
+    }
+}
