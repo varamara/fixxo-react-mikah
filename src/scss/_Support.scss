@@ -1,0 +1,44 @@
+.__support {
+    display: flex;
+    justify-content: center;
+    margin-top: 9rem;
+    height: 500px;
+    width: 1920px;
+
+    .btn_container {
+        border-top: 1px solid $color-gray-3;
+        width: 1110px;
+        height: 250px;
+
+        .support_options {
+            margin-top: 10rem;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: 230px;
+            text-align: center;
+
+            .__shop_btn {
+                position: absolute;
+                height: 60px;
+                width: 60px;
+                margin-top: -3rem;
+                pointer-events: none;
+
+                img {
+                margin: 1rem;
+                }
+            }
+
+            h1 {
+                font-size: $font-size-18;
+                font-weight: $font-weight-extra-bold;
+                margin-top: 2.5rem;
+            }
+            p {
+                color: $color-gray-4;
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}

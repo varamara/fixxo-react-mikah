@@ -1,3 +1,5 @@
+@import './utilities';
+
 .__navbar {
     height: 100px;
     width: 1920px;
@@ -5,15 +7,40 @@
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 1;
     
     .__container {
         width: 1920px;
         display: flex;
         justify-content: space-around;
         align-items: center;
-       
+        
+
+        .links {
+            margin-left: 7rem;
+        }
         .links a {
             margin: 1rem;
         }
+
+        .red_dot {
+            background-color: $color-theme;
+            position: absolute;
+            height: 17px;
+            width: 17px; 
+            margin-left: 1.1rem;
+            margin-top: -0.5rem;
+            border-radius: 50%; 
+            border: 1px solid red;
+
+            p {
+                color: $color-white;
+                font-size: $font-size-11;
+                margin-top: -0.07rem;
+                display: flex;
+                justify-content: center;
+            }
+        }
+
     }  
 } 

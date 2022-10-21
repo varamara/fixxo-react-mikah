@@ -3,7 +3,7 @@ import React from 'react'
 const Featured_products_2 = () => {
   return (
     <section className="featured_products">
-        <div className="flash_sale">
+        <div className="flash_cards">
 
         </div>
         <div className="flash_sale">

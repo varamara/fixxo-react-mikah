@@ -1,18 +1,20 @@
+@import './utilities';
+
 .__showcase_2 {
     width: 1920px;
-    margin-top: 5rem;
+    padding: 4rem 5rem 0 5rem;
     display: flex;
     justify-content: space-evenly;
 
     .top_picks {
         position: absolute;
-        margin-right: 40rem;
+        margin-right: 35rem;
         margin-top: 6rem;
 
         h1 {
-            color: $color-white;
+            color: #ffffff ;
             font-weight: $font-weight-extra-bold;
-            font-size: $font-size-45;
+            font-size: 45px;
             letter-spacing: 0.2rem;
         }
 
@@ -27,7 +29,7 @@
         margin-top: 6rem;
 
         h1 {
-            color: $color-dark-1;
+            color: #222529 ;
             font-weight: $font-weight-extra-bold;
             font-size: $font-size-45;
             letter-spacing: 0.2rem; 

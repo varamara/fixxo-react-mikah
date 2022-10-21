@@ -1,5 +1,6 @@
 .featured_products {
-    margin-top: 5rem;
+    padding: 5rem 5rem 0 5rem;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-evenly;
     height: 665px;
@@ -21,4 +22,13 @@
         }
     }
 
+    .flash_cards {
+        border: 2px solid $color-gray-3;
+        width: 820px;
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }

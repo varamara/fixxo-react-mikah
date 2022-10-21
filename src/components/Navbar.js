@@ -15,8 +15,8 @@ const Navbar = () => {
         <div className="btn_container">
         <a href="#" className='__shop_btn'><i class="fa-regular fa-magnifying-glass"></i></a>
         <a href="#" className='__shop_btn'><i class="fa-regular fa-code-compare"></i></a>
-        <a href="#" className='__shop_btn'><i class="fa-regular fa-heart"></i></a>
-        <a href="#" className='__shop_btn'><i class="fa-regular fa-bag-shopping "></i></a>
+        <a href="#" className='__shop_btn'><div className="red_dot"><p>1</p></div><i class="fa-regular fa-heart"></i></a>
+        <a href="#" className='__shop_btn'><div className="red_dot"><p>3</p></div><i class="fa-regular fa-bag-shopping "></i></a>
         </div>
       </div>
     </nav>
