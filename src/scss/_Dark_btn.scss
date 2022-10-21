@@ -1,0 +1,48 @@
+// fixa borderfärgen vid hover
+
+.dark_btn {
+    background-color: $color-dark-1;
+    color: $color-white;
+    font-weight: $font-weight-semi-bold;
+    font-size: $font-size-16;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    width: 180px;
+    transition: 0.2s ease-in-out;
+    
+    .btn_border_top {
+        display: flex;
+        justify-content: center;
+        border: 2px solid $color-white;
+        border-bottom: none;
+        border-right: none;
+        margin-left: 0.7rem;
+        margin-top: -1.5rem;
+        height: 20px;
+        width: 20px;
+    }
+    .btn_border_bottom {
+        display: flex;
+        justify-content: center;
+        border: 2px solid $color-white;
+        border-top: none;
+        border-left: none;
+        margin-right: 0.7rem;
+        margin-top: 1.5rem;
+        height: 20px;
+        width: 20px;
+    }
+
+    p {
+        font-size: $font-size-16;
+        margin-top: 1rem;
+    }
+
+    &:hover {
+        background-color: $color-white;
+        color: $color-dark-1;
+    }
+
+}

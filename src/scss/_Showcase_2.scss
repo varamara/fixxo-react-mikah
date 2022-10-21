@@ -1,0 +1,42 @@
+.__showcase_2 {
+    width: 1920px;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    .top_picks {
+        position: absolute;
+        margin-right: 40rem;
+        margin-top: 6rem;
+
+        h1 {
+            color: $color-white;
+            font-weight: $font-weight-extra-bold;
+            font-size: $font-size-45;
+            letter-spacing: 0.2rem;
+        }
+
+        .dark_btn {
+            margin-top: 2rem;
+            width: 55%;
+        }
+        
+    }
+    .conscious {
+        position: absolute;
+        margin-left: 30rem;
+        margin-top: 6rem;
+
+        h1 {
+            color: $color-dark-1;
+            font-weight: $font-weight-extra-bold;
+            font-size: $font-size-45;
+            letter-spacing: 0.2rem; 
+        }
+
+        .light_btn {
+            margin-top: 2rem;
+            width: 70%;
+        }
+    }
+}
